@@ -1,0 +1,161 @@
+body {
+    margin: 0;
+    background: url(../photo/BG\ login.jpg) no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+.login-box {
+    background: white;
+    padding: 25px 40px;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.3);
+    width: 340px;
+    height: 430px;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+}
+
+.suwannaphum-bold {
+  font-family: "Suwannaphum", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.suwannaphum-bold h2{
+  font-family: "Suwannaphum", serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 28px;
+  margin: 1px;
+}
+
+
+.input-group {
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    font-size: 14px;
+    margin-bottom: 5px;
+    display: block;
+    font-family: "Suwannaphum", serif;
+}
+
+.input-group input {
+    width: 320px;
+    padding: 7px;
+    font-size: 14px;
+    border: 1px solid #858484;
+    border-radius: 6px;
+    font-family: "Suwannaphum", serif;
+}
+.input-group input:focus {
+    border: 1px solid blue;
+    outline: none;
+}
+
+.forgot-password {
+    text-align: right;
+    font-size: 12px;
+    margin-right: 20px;
+    font-weight: 300;
+}
+
+.forgot-password a {
+    text-decoration: none;
+    color: blue;
+}
+
+.forgot-password a:hover {
+    color: red;
+}
+.register {
+    text-align: left;
+    font-size: 14px;
+    /* margin-top: 0px; */
+}
+
+.register a {
+    color:  blue;
+    text-decoration: none;
+    font-weight: 300;
+}
+
+.register a:hover{
+    color: red;
+    font-weight: lighter;
+}
+p{
+    font-family: "suwannaphum", serif;
+    margin: 0;
+    text-align: center;
+    max-width: 600px;
+    position: relative;
+}
+p:before{
+    content: "";
+    display: block;
+    width: 150px;
+    height: 0.8px;
+    position: absolute;
+    background-color: #dfdfdf;
+    top: 50%;
+}
+p:after{
+    content: "";
+    display: block;
+    width: 150px;
+    height: 0.8px;
+    position: absolute;
+    background-color: #dfdfdf;
+    top: 50%;
+    right: 5px;
+}
+.social-buttons {
+    display: flex;
+    margin: 20px 0;
+    width: 100%;
+}
+
+.social-buttons button {
+    flex: 1;
+    padding: 10px;
+    margin: 0 5px;
+    font-size: 14px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    background: white;
+    cursor: pointer;
+}
+
+.social-buttons img {
+    height: 19px;
+    vertical-align: middle;
+    margin-right: 6px;
+}
+
+.login-btn {
+    background: #9793db;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-family: "Suwannaphum", serif;
+}
+
+.login-btn a{
+    text-decoration: none;
+}
+
+.login-btn:hover{
+    background-color: rgb(167, 180, 255);
+    color: rgb(12, 47, 114);
+    cursor: pointer;
+}

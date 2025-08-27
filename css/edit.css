@@ -1,0 +1,501 @@
+.head{
+    flex-direction: row;
+    justify-content: space-between;
+}
+body{
+    margin: 0;
+    background-color: rgb(236, 236, 236);
+}
+header{
+    min-height: 55px;
+    width: 100%;
+    background-color: rgba(13,18,48,255);
+    margin-top: 0;
+    font-family: "Suwannaphum", serif;
+    position: fixed;
+    z-index: 1;
+}
+
+.logo img{
+    width: 100px;
+    height: 45px;
+    border-radius: 5%;
+    float: left;
+    margin-left: 70px;
+    margin-top: 5px;
+}
+.nav1{
+    display: flex;
+    justify-content: baseline;
+    margin-left: 30%;
+}
+nav ul{
+    
+    list-style-type: none;
+    margin: 0;
+}
+nav ul li a{
+    display: block;
+    text-decoration: none;
+    padding: 17px;
+    font-size: 15px;
+    color: white;
+}
+ul li{
+    float: left;
+}
+
+ul li a:hover{
+    color: cornflowerblue;
+    font-size: 15px;
+}
+.pfp{
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: none;
+}
+.pfp img{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-left: 95%;
+    object-fit: cover;
+}
+.dropdown{
+    display: none;
+    position: absolute;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 4px;
+    width: 140px;
+    height: 80px;
+    font-family: "suwannaphum",serif;
+    font-size: 15;
+    
+}
+.dropdown ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.dropdown li {
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.dropdown a{
+    text-decoration: none;
+    color: black;
+}
+.dropdown li:hover {
+    background-color: white;
+   
+}
+
+.pfp:hover .dropdown {
+    display: block;
+}
+
+
+.container {
+    top: 15%;
+    max-width: 100%;
+    background-color: rgb(233, 232, 232);
+    z-index: -1;
+    height: 120vh;
+    padding-bottom: 200px;
+}
+
+.profile-title {
+    max-width: 100%;
+    font-family: "Suwannaphum", serif;
+    font-size: 26px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    padding-top: 10%;
+    padding-left: 5%;
+}
+
+.profile-title a{
+    text-decoration: none;
+}
+
+.blue a{
+    color: #6aabd6;
+    font-weight: 700;
+}
+  
+.divider {
+    color: #222;
+    margin: 0 8px;
+    font-weight: 400; 
+}
+  
+.black a{
+    color: #222;
+    font-weight: 700;
+
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: white;
+    align-items: flex-start;
+    gap: 15px;
+    margin-left: 5%;
+    margin-top: 3%;
+    width: 300px;
+    height: 280px;
+    border-radius: 10px;
+    font-family: "suwannaphum", serif;
+}
+
+.sidebar h2 {
+  font-size: 18px;
+  margin-left: 10%;
+  color: #3b3b3b;
+}
+
+.sidebar a {
+  text-decoration: none;
+  margin-left: 15%;
+  color: rgb(90, 90, 90);
+}
+
+.sidebar::after{
+    content: "";
+    display: block;
+    width: 230px;
+    height: 2px;
+    position: absolute;
+    background-color: #dfdfdf;
+    top: 40%;
+    left: 7%;
+}
+
+
+.leave:hover{
+    transition: background 0.2s;
+    background-color: #929292;
+    transition: color 0.2s;
+    color: white;
+}
+
+
+.leave{    
+    background-color: rgb(233, 232, 232);
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    height: 40px;
+    margin-left: 30px;
+    font-family: "suwannaphum", serif;
+    font-weight: 600;
+    font-size: 15px;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+.leave a{
+    color: rgb(179, 15, 15);
+}
+
+.leave:hover a{
+   color: white;
+}
+
+.mid{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px   ;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 40px;
+    margin-left: 5%;
+    margin-top: 3%;
+}
+
+.profile-form {
+    width: 1000px;
+    height: 600px;
+    background-color: white;
+    border-radius: 10px;
+    align-items: center;
+    display: block;
+    margin-right: 5%;
+
+}
+
+.profile-header {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  
+
+}
+.profile-header::after{
+    content: "";
+    display: block;
+    width: 800px;
+    height: 2px;
+    position: absolute;
+    background-color: #dfdfdf;
+    top: 67%;
+    left: 33%;
+}
+
+.avatar {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin: 25px;
+}
+
+.change-photo {
+  background: #d4d4d4;
+  width: 100px;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: "suwannaphum", serif;
+  font-weight: 500;
+  margin-left: 60%;
+}
+
+.change-photo a{
+   text-decoration: none; 
+   color: #222;
+}
+
+.change-photo:hover{
+    transition: transform 0.2s;
+    transform: scale(1.1);
+    color: black;
+}
+
+h1{
+    font-family: "suwannaphum", serif;
+    font-size: 24px;
+    font-weight: 700;
+    margin-left: 5%;
+}
+
+.form-row {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.form1, .form2{
+    font-family: "suwannaphum", serif;
+    font-weight: 300;
+    display: block;
+    flex: 1;
+    color: black;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+}
+
+.form1{
+    margin-left: 8%;
+    font-family: "suwannaphum", serif;
+    font-size: 16px;
+    color: #3b3b3b;
+}
+
+.form1 input{
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    font-family: "Suwannaphum", serif;
+    font-size: 14px;
+    border: 1px solid #383838;
+    margin-bottom: 15px;
+    padding-left: 10px;
+}
+
+.form1 input::placeholder{
+    font-family: "suwannaphum", serif;
+    /* padding-left: 10px; */
+}
+
+.form1 , .form2 label{
+    font-family: "suwannaphum", serif;
+    font-weight: lighter;
+    color: #383838;
+}
+
+
+.form2 input{
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    font-family: "Suwannaphum", serif;
+    font-size: 14px;
+    border: 1px solid #383838;
+    margin-bottom: 15px;
+    padding-left: 10px;
+}
+
+.form-row::after{
+    content: "";
+    display: block;
+    width: 800px;
+    height: 2px;
+    position: absolute;
+    background-color: #dfdfdf;
+    top: 36%;
+    left: 33%;
+}
+
+.back{
+    background: #cccccc ;
+    padding: 4px;
+    width: 100px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    margin-left: 5%;
+    cursor: pointer;
+    font-family: "suwannaphum", serif;
+}
+
+.back a{
+  text-decoration: none;
+  
+}
+
+.back:hover{
+    background-color: #8f8f8f;
+
+}
+.save a{
+  text-decoration: none;
+
+}
+.save{
+  background: #8593e0;
+  padding: 5px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  font-family: "Suwannaphum", serif;
+  height: 40px;
+  width: 70px;
+  margin-top: 5%;
+  margin-left: 65%;
+}
+
+.save:hover{
+    background-color: #98ace0;
+    color: white;
+}
+
+footer {
+    background-color: #0f172a;
+    color: white;
+    padding: 40px 20px 20px;
+    font-family: "Suwannaphum", serif;
+    
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.footer-left {
+    flex: 1 1 300px;
+    margin-bottom: 20px;
+}
+
+.footer-left p {
+    font-size: 14px;
+    line-height: 1.8;
+    color: #cbd5e1;
+    margin-bottom: 15px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 30px;
+}
+.social-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;    
+    color: white;
+    font-size: 24px;
+}
+
+.social-icon:hover {
+    color: rgb(128, 172, 199);
+}
+
+.footer-column {
+    flex: 1 1 180px;
+    margin-bottom: 20px;
+    margin-left: 5%;
+}
+
+.footer-column h4 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+.footer-column {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-column {
+    margin-bottom: 8px;
+}
+
+.footer-column a {
+    color: #cbd5e1;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-column ul li a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.app-btn {
+    width: 130px;
+    margin-bottom: 10px;
+}
+
+.footer-bottom {
+    border-top: 1px solid #334155;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 14px;
+    color: #cbd5e1;
+}
+
+.flix-logo{
+    width: 95px;
+    margin-bottom: 3px;
+}

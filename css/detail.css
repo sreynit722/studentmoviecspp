@@ -1,0 +1,318 @@
+.head{
+    flex-direction: row;
+    justify-content: space-between;
+}
+body{
+    margin: 0;
+    background-color: rgb(236, 236, 236);
+    
+}
+header{
+    min-height: 55px;
+    width: 100%;
+    background-color: rgba(13,18,48,255);
+    margin-top: 0;
+    font-family: "Suwannaphum", serif;
+    position: fixed;
+}
+
+.logo img{
+    width: 100px;
+    height: 45px;
+    border-radius: 5%;
+    float: left;
+    margin-left: 70px;
+    margin-top: 5px;
+}
+.nav1{
+    display: flex;
+    justify-content: baseline;
+    margin-left: 30%;
+}
+nav ul{
+    
+    list-style-type: none;
+    margin: 0;
+}
+nav ul li a{
+    display: block;
+    text-decoration: none;
+    padding: 17px;
+    font-size: 15px;
+    color: white;
+}
+ul li{
+    float: left;
+}
+
+ul li a:hover{
+    color: cornflowerblue;
+    font-size: 15px;
+}
+.pfp{
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: none;
+}
+.pfp img{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-left: 95%;
+    object-fit: cover;
+}
+.dropdown{
+    display: none;
+    position: absolute;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 4px;
+    width: 140px;
+    height: 80px;
+    font-family: "suwannaphum",serif;
+    font-size: 15;
+    
+}
+.dropdown ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.dropdown li {
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.dropdown a{
+    text-decoration: none;
+    color: black;
+}
+.dropdown li:hover {
+    background-color: white;
+   
+}
+
+.pfp:hover .dropdown {
+    display: block;
+}
+
+video{
+    width: 78%;
+    height: 500px;
+    margin-left: 11%;
+    border-radius: 15px;
+    margin-top: 8%;
+    object-fit: cover;
+}
+.trailer {
+    margin-left: 11%;
+    margin-top: 5px;
+    margin-bottom: 5%; 
+    width:74%;
+    height: 100px;
+    background-color: white;
+    padding: 2%;
+    border-radius: 15px;
+}
+.ha{
+    display: flex;
+    justify-content: space-between;
+}
+h1{
+    margin-top: 0;
+    font-size: 15px; 
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.icon2 {
+    float: right;
+}
+.icon2 span{
+    padding-left: 40px;
+}
+.icon{
+    font-size: 12px;
+}
+.icon span{
+    margin-left: 5px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+p{
+    font-family: "suwannaphum", serif;
+    font-size: 13.5px;
+}
+
+.movies-section {
+    height: 580px;
+    margin: auto;
+}
+
+.section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 35px;
+    margin-bottom: 8px;
+}
+
+.section-header h2 {
+    font-size: 25px;
+    font-weight: bold;
+    color: #2f2f2f;
+    border-left: 8px solid #3d5afe;
+    margin-left: 11%;
+    padding-left: 20px;
+}
+
+.view-more {
+    color: #3d5afe;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 12%;
+}
+
+.movie-grid {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.movie-card {
+    background: #fafafa;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    width: 280px;
+    height: 472px;
+}
+
+.movie-card img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.movie-card h3 {
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-bottom: 0;
+    font-size: 20px;
+    color: #1f1f1f;
+}
+
+.movie-card h3:hover{
+    color: #3d5afe;
+}
+
+.movie-info span{
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.movie-info {
+    padding: 5px 16px 20px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    color: #555;
+}
+
+footer {
+    margin-top: 3%;
+    background-color: #0f172a;
+    color: white;
+    padding: 40px 20px 20px;
+    font-family: 'Khmer OS Battambang', sans-serif;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.footer-left {
+    flex: 1 1 300px;
+    margin-bottom: 20px;
+}
+
+.footer-left p {
+    font-size: 14px;
+    line-height: 1.8;
+    color: #cbd5e1;
+    margin-bottom: 15px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 30px;
+}
+.social-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;    
+    color: white;
+    font-size: 24px;
+}
+
+.social-icon:hover {
+    color: rgb(128, 172, 199);
+}
+
+.footer-column {
+    flex: 1 1 180px;
+    margin-bottom: 20px;
+    margin-left: 5%;
+}
+
+.footer-column h4 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+.footer-column {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-column {
+    margin-bottom: 8px;
+}
+
+.footer-column a {
+    color: #cbd5e1;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-column ul li a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.app-btn {
+    width: 130px;
+    margin-bottom: 10px;
+}
+
+.footer-bottom {
+    border-top: 1px solid #334155;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 14px;
+    color: #cbd5e1;
+}
+
+.flix-logo{
+    width: 95px;
+    margin-bottom: 3px;
+}
+
+

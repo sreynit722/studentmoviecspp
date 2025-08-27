@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    background: url(../photo/BG\ login.jpg ) no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    font-family: "suwannaphum" , serif;
+}
+.pw-box {
+    background: white;
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.3);
+    width: 350px;
+    height: 380px;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+    
+}
+
+.pw-box h1 {
+    font-size: 24px;
+    margin-top: -5px;
+    font-weight: 700;
+    font-family: "suwannaphum" , serif;
+}
+
+.pw-box p{
+    margin-top: -10px;
+    font-size: 14px;
+    text-align: center;
+    font-weight: 300;
+    font-family: "suwannaphum" , serif;
+    color: rgb(77, 77, 77);
+
+}
+.input-group {
+    text-align: left;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    font-weight: 600;
+    font-family: "suwannaphum" , serif;
+}
+
+.input-group label {
+    font-size: 14px;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.input-group input {
+    width: 100%;
+    height: 45px;
+    padding: 10px;
+    font-size: 12px;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    font-weight: 500;
+    font-family: "suwannaphum" , serif;
+}
+
+.input-group input:focus {
+    border: 1px solid blue;
+    outline: none;
+}
+
+.login-btn {
+    background: steelblue;
+    color: white;
+    padding: 8px;
+    margin-top: 10px;
+    width: 100%;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 500;
+    font-family: "suwannaphum" , serif;
+}
+
+.login-btn a{
+    color: white;
+    text-decoration: none;
+}
+
+.login-btn:hover{
+    background-color: #938dff;
+    color: white;
+    cursor: pointer;
+}
+span{
+    content: "";
+    display: block;
+    width: 350px;
+    height: 2px;
+    position: absolute;
+    background-color: #dfdfdf;
+    top: 69%;
+}
+.naknak {
+    background: #8d8d8d;
+    color: white;
+    padding: 8px;
+    width: 100%;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 40px;
+    font-weight: 500;
+    font-family: "suwannaphum" , serif;
+}
+
+.naknak a{
+    color: white;
+    text-decoration: none;
+}
+
+.naknak:hover{
+    color: red;
+    background: #cfcfcf;
+    cursor: pointer;
+}
+ @media (min-width: 480px){
+    
+ }

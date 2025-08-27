@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+    background: url(BG\ login.jpg) no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    font-family: "suwannaphum" , serif;
+}
+.pw-box {
+    background: white;
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.3);
+    width: 400px;
+    height: 350px;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+}
+
+.pw-box h1 {
+    font-size: 20px;
+    margin-top: 5px;
+    font-weight: 900;
+}
+
+.pw-box p{
+    margin-top: 5px;
+    font-size: 13px;
+    text-align: center;
+    font-weight: 400;
+}
+.input-group {
+    text-align: left;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-family: "suwannaphum", serif;
+}
+
+.input-group label {
+    font-size: 14px;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #aaa;
+    border-radius: 6px;
+    font-family: "suwannaphum", serif;
+}
+
+.input-group input:focus {
+    border: 1px solid blue;
+    outline: none;
+}
+
+.login-btn {
+    background: steelblue;
+    color: white;
+    padding: 8px;
+    width: 100%;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-family: "suwannaphum", serif;
+    margin-top: 15px;
+}
+
+.login-btn a{
+    color:white;
+    text-decoration: none;
+}
+.login-btn:hover{
+    background-color: #938dff;
+    color: white;
+    cursor: pointer;
+}
+span{
+    content: "";
+    display: block;
+    width: 400px;
+    height: 2px;
+    position: absolute;
+    background-color: #dfdfdf;
+    top: 70%;
+}
+
+.naknak {
+    background: #8d8d8d;
+    color: white;
+    padding: 8px;
+    width: 100%;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-family: "suwannaphum", serif;
+    margin-top: 40px;
+}
+
+.naknak a{
+    color: white;
+    text-decoration: none;
+    
+}
+
+.naknak:hover{
+    color: white;
+    background: #cfcfcf ;
+    cursor: pointer;
+}
